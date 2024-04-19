@@ -26,8 +26,8 @@ function App() {
   return (
     <div className="app">
       <h1>Hi there!</h1>
-      {/* <DemoOutput onDisplay={isPDisplayed} /> */}
-      <DemoOutput onDisplay={false} />
+      {/* Toggle onDisplay: isPDisplayed/false */}
+      <DemoOutput onDisplay={isPDisplayed} />
       <Button onClick={allowToggle}>
         {!isToggleAllowed ? "Allow" : "Prevent"} Toggle
       </Button>
